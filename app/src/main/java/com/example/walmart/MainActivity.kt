@@ -44,11 +44,10 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        listOfUsers.add(User("Ugur Can", "Guleviz","ugurcan.guleviz@gmail.com","12345"))
-        listOfUsers.add(User("Hasan Burak", "Namli","hasan.namli@gmail.com","54321"))
-        listOfUsers.add(User("Tugbanur", "Yucel","tugbanur.yucel@gmail.com","11111"))
-        listOfUsers.add(User("Gizem", "Ozmen","gizem.ozmen@gmail.com","22222"))
-        listOfUsers.add(User("Alper", "Sirin","alper.sirin@gmail.com","33333"))
+        listOfUsers.add(User("Omur Can", "Boz","ugurcan.guleviz@gmail.com","11111"))
+        listOfUsers.add(User("Ugur Can", "Guleviz","hasan.namli@gmail.com","22222"))
+        listOfUsers.add(User("Yasar", "Koc","tugbanur.yucel@gmail.com","33333"))
+        listOfUsers.add(User("Fatih", "Gur","gizem.ozmen@gmail.com","44444"))
 
         var signInButton : Button = findViewById(R.id.activity_main_bt_signIn)
         var createAccButton : Button = findViewById(R.id.activity_main_bt_createAcc)
